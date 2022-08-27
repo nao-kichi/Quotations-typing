@@ -12,19 +12,19 @@ const count = document.getElementById('count');
 
 // 複数のテキストを格納する配列
 const textLists = [
-  '仕事は人生の大部分を占める。','This is my App','How are you?',
-  'Today is sunny','I love JavaScript!','Good morning',
-  'I am Japanese','Let it be','Samurai',
-  'Typing Game','Information Technology',
-  'I want to be a programmer','What day is today?',
-  'I want to build a web app','Nice to meet you',
-  'Chrome Firefox Edge Safari','machine learning',
-  'Brendan Eich','John Resig','React Vue Angular',
-  'Netscape Communications','undefined null NaN',
-  'Thank you very much','Google Apple Facebook Amazon',
-  'ECMAScript','console.log','for while if switch',
-  'var let const','Windows Mac Linux iOS Android',
-  'programming'
+  '仕事は人生の大部分を占める。','稼ぐために学んではいけない。学ぶために学べ。',
+  '今日学ぶことが、明日のあなたになる。','いつも、期待されている以上の結果を出せ。',
+  '地球は青かった','急がずに、だが休まずに。','必死で働き、楽しみ、歴史を創れ。',
+  '完璧を目指すな。','今日死ぬつもりで生きろ。',
+  '僕が後悔するであろう唯一のことは、挑戦をやめることである。','苦しまずに学ぶことはできない。',
+  '賢く、献身的な人たちに囲まれていなさい。','人事を尽くして天命を待つ',
+  '生き残った種というのは、最も強かった訳ではない。','また、最も賢かった訳でもない。',
+  '変化に対する適応能力が高かったのである。','困難の中に、機会がある。','React Vue Angular',
+  '幸せかどうかは、自分次第である。','ペンは剣よりも強し',
+  '行動は言葉よりも強力である','やらないことを決めろ',
+  '失敗にこそ価値がある','過去にこだわる者は未来を失う',
+  '夢見る事ができればそれは実現できる','今日できることを明日に伸ばすな。',
+  'ハングリーであれ。愚かであれ。'
 ];
 
 // ランダムなテキストを表示
