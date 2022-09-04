@@ -17,15 +17,6 @@
 
 /* スマホ用にサイズ変換 */
 @media screen and (max-width: 768px){
-  .count {
-    margin: 0;
-    font-weight: bold;
-    color: #888;
-  }
-}
-
-/* スマホ用にサイズ変換 */
-@media screen and (max-width: 768px){
   .wrap {
     margin-top: 20px;
     padding: 80px 40px;
