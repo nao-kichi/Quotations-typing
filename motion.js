@@ -11,20 +11,15 @@ const start = document.getElementById('start');
 const count = document.getElementById('count');
 
 // 複数のテキストを格納する配列
+// 日本語は変換が必要なので導入不可です。
 const textLists = [
-  '仕事は人生の大部分を占める。','稼ぐために学んではいけない。学ぶために学べ。',
-  '今日学ぶことが、明日のあなたになる。','いつも、期待されている以上の結果を出せ。',
-  '地球は青かった','急がずに、だが休まずに。','必死で働き、楽しみ、歴史を創れ。',
-  '完璧を目指すな。','今日死ぬつもりで生きろ。',
-  '僕が後悔するであろう唯一のことは、挑戦をやめることである。','苦しまずに学ぶことはできない。',
-  '賢く、献身的な人たちに囲まれていなさい。','人事を尽くして天命を待つ',
-  '生き残った種というのは、最も強かった訳ではない。','また、最も賢かった訳でもない。',
-  '変化に対する適応能力が高かったのである。','困難の中に、機会がある。','React Vue Angular',
-  '幸せかどうかは、自分次第である。','ペンは剣よりも強し',
-  '行動は言葉よりも強力である','やらないことを決めろ',
-  '失敗にこそ価値がある','過去にこだわる者は未来を失う',
-  '夢見る事ができればそれは実現できる','今日できることを明日に伸ばすな。',
-  'ハングリーであれ。愚かであれ。'
+  'Work occupies a large part of life.',
+  'Always deliver results that exceed expectations.',
+  'the earth was blue','Work hard, have fun, and make history.',
+  'The only thing I would regret is giving up trying.','You cannot learn without suffering.',
+  'Surround yourself with smart, dedicated people.','Do your best and wait for destiny',
+  'The species that survived was not the strongest.','Nor was he the smartest.',
+  'He was highly adaptable to change.','In the midst of difficulties, there are opportunities.','React Vue Angular','Whether you are happy or not is up to you.','the pen is mightier than the sword','actions are stronger than words','decide not to','failure is worth it','Those who dwell on the past lose the future','If you can dream it, you can do it','Dont put off until tomorrow what you can do today.','Stay hungry. Be silly.'
 ];
 
 // ランダムなテキストを表示
