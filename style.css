@@ -1,41 +1,37 @@
-/* スマホ用にサイズ変換 */
-@media screen and (max-width: 768px){
-  body {
-    font-size: 6em; 
-    text-align: center;
-  }
+/* 文字サイズ */
+body {
+  font-size: 6em; 
+  text-align: center;
 }
 
-/* スマホ用にサイズ変換 */
-@media screen and (max-width: 768px){
-  .count {
-    margin: 0;
-    font-weight: bold;
-    color: #888;
-  }
+/* カウント */
+.count {
+  margin: 0;
+  font-weight: bold;
+  color: #888;
 }
 
-/* スマホ用にサイズ変換 */
-@media screen and (max-width: 768px){
-  .wrap {
-    margin-top: 20px;
-    padding: 80px 40px;
-    background-color: #666;
-    font-weight: bold;
-    color: #fff;
-  }
+/* 最初の背景 スタートボタンで開始 */
+.wrap {
+  margin-top: 20px;
+  padding: 80px 40px;
+  background-color: #666;
+  font-weight: bold;
+  color: #fff;
 }
 
-/* スマホ用にサイズ変換 */
-@media screen and (max-width: 768px){
-  .typed {
-    color: lightgreen;
-  }
+/* 入力済みの文字色 */
+.typed {
+  color: lightgreen;
 }
 
-/* スマホ用にサイズ変換 */
-@media screen and (max-width: 768px){
-  .mistyped {
-    background-color: red;
-  }
+/* ミスをした時の反応 */
+.mistyped {
+  background-color: red;
+}
+
+/* 最初のボタンのサイズ */
+button {
+  width: 10em;
+  height:3em;
 }

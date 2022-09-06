@@ -10,15 +10,21 @@ const wrap = document.getElementById('wrap');
 const start = document.getElementById('start');
 const count = document.getElementById('count');
 
-// 日本語は変換が必要なので導入不可です。
+// 複数のテキストを格納する配列 日本語は変換があるため禁止
 const textLists = [
-  'Work occupies a large part of life.',
-  'Always deliver results that exceed expectations.',
-  'the earth was blue','Work hard, have fun, and make history.',
-  'The only thing I would regret is giving up trying.','You cannot learn without suffering.',
-  'Surround yourself with smart, dedicated people.','Do your best and wait for destiny',
-  'The species that survived was not the strongest.','Nor was he the smartest.',
-  'He was highly adaptable to change.','In the midst of difficulties, there are opportunities.','React Vue Angular','Whether you are happy or not is up to you.','the pen is mightier than the sword','actions are stronger than words','decide not to','failure is worth it','Those who dwell on the past lose the future','If you can dream it, you can do it','Dont put off until tomorrow what you can do today.','Stay hungry. Be silly.'
+  'Stay hungry. Stay foolish.','stick to your customers','the earth was blue',
+  'Today is sunny','I love JavaScript!','Good morning',
+  'Keep learning','Let it be','Effort is always rewarded',
+  'Typing Game','Information Technology',
+  'I want to be a programmer','What day is today?',
+  'I want to build a web app','Nice to meet you',
+  'Chrome Firefox Edge Safari','machine learning',
+  'Brendan Eich','John Resig','React Vue Angular',
+  'Netscape Communications','undefined null NaN',
+  'Thank you very much','Google Apple Facebook Amazon',
+  'ECMAScript','console.log','for while if switch',
+  'var let const','Windows Mac Linux iOS Android',
+  'programming'
 ];
 
 // ランダムなテキストを表示
