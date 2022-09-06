@@ -10,7 +10,6 @@ const wrap = document.getElementById('wrap');
 const start = document.getElementById('start');
 const count = document.getElementById('count');
 
-// 複数のテキストを格納する配列
 // 日本語は変換が必要なので導入不可です。
 const textLists = [
   'Work occupies a large part of life.',
